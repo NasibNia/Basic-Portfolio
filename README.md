@@ -1,6 +1,6 @@
 <!-- Put the name of the project after the # -->
 <!-- the # means h1  -->
-# HW-Wireframe
+# Nasib in Webland!
 
 <!-- Put a description of what the project is -->
 
@@ -10,13 +10,13 @@ Learning html, css.floats,...
 <!-- make a link to the deployed site --> 
 <!-- [What the user will see](the link to the deployed site) -->
 
-[HW-Wireframe](www.google.com)
+[HW-Wireframe](https://nasibnia.github.io/Basic-Portfolio/)
 
 
 # Images
 <!-- take a picture of the image and add it into the readme  -->
 <!-- ![image title](path or link to image) -->
-![wire frame]
+![wire frame](assets/images/IMG_1659.JPG)
 
 
 
@@ -51,7 +51,6 @@ Learning html, css.floats,...
 <!-- Learning points where you would write what you thought was helpful -->
 - html
 - css
-- link
 - float
 - positioning
 
@@ -60,6 +59,7 @@ Learning html, css.floats,...
 # Author 
 <!-- make a link to the deployed site and have your name as the link -->
 Nasibeh Nourbakhshnia
+(www.linkedin.com/in/nasibehnourbakhshnia)
 
 # License
 Standard MIT License
