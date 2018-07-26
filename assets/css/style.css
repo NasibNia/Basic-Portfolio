@@ -10,11 +10,13 @@
     margin: 0px;
     margin-left: 250px;
     padding: 20px;
+    /* padding-left: 0px; */
     text-align: center;
     background-color: #4aaaa5;
     color: white;
     float: left;
-    font-size: 30px;
+    font-size: 32px;
+    
 
 }
 
@@ -23,7 +25,7 @@
     height: 40px;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 0px;
     margin-top: 50px;
 }
@@ -45,6 +47,10 @@
     border-bottom-width: 1x;
     padding-bottom: 10px;
     color: #777777;
+    font-size: 11px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+    /* padding-left: 30px; */
 }
 
 .main {
@@ -93,6 +99,8 @@ h1{
     padding: 20px;
     margin-bottom: 20px;
 
+    max-width: 960;
+
     z-index: 2;
 
     float: left;
@@ -111,6 +119,10 @@ h1{
 }
 
 .footer {
+    position: fixed;
+
+    bottom: 0px;
+
     width: 1440px;
     background-color: #777777;
     border-top: 5x;
@@ -123,8 +135,7 @@ h1{
     text-align: center;
     font-size: 12px;
 
-    clear: both;
-    
+    clear: both;   
 }
 
 .contact-form{
@@ -159,4 +170,30 @@ input[type=submit] {
     cursor: pointer;
 }
 
+figure{
+    float: left;
+    width: 200px;
+    height: 200px;
 
+}
+
+.channel{
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+    z-index: 1;
+    object-fit: cover;
+
+}
+.box{
+    position: absolute;
+    z-index:2;
+    width:200px;
+    height: 20%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 10px;
+
+    bottom: 20%;
+}
