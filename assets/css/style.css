@@ -28,6 +28,7 @@
     font-size: 16px;
     margin-bottom: 0px;
     margin-top: 50px;
+    text-decoration: none;
 }
 .info-tab1{
     margin-left: 520px;
@@ -40,6 +41,21 @@
 .info-tab3{
    margin-left: 20px;
     float: left;
+}
+
+.info-tab1:hover{
+    color: brown;
+    font-size: 120%
+}
+
+.info-tab2:hover{
+    color: brown;
+    font-size: 120%
+}
+
+.info-tab3:hover{
+    color: brown;
+    font-size: 120%
 }
 
 .header2{
@@ -175,7 +191,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-figure {
+.figclass {
     position: relative;
     float: left;
     width: 300px;
@@ -212,6 +228,13 @@ figure {
     text-align: center;
     font-weight: bold;
     padding-top: 60px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+#tag3{
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    font-weight: bold;
     padding-right: 100px;
     padding-left: 100px;
 }

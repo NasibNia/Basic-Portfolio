@@ -41,8 +41,11 @@ Learning html, css.floats,...
 <!-- if you want to put blockquotes use a > -->
 
 ```
-<div>
-    <h1>Hey there</h1>
+<div class="header">
+    <div class="name-block">Nasib N.</div>
+    <div class="info-tab1"><a href="index.html" >About</a></div>
+    <div class="info-tab2"><a href="portfolio.html" >Portfolio</a></div>
+    <div class="info-tab3"><a href="contact.html" >Conatct</a></div>    
 </div>
 ```
 
