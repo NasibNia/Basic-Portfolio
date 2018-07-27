@@ -4,7 +4,7 @@
 
 <!-- Put a description of what the project is -->
 
-Learning html, css.floats,...
+Learning html, css, floats, positioning, fonts, styling, page layout ...
 
 # Link to deployed site
 <!-- make a link to the deployed site --> 
